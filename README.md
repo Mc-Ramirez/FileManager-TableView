@@ -1,6 +1,6 @@
-### Actividad iOS
+# Actividad iOS
 ## Primeros pasos con UIKit y mas Swift FileManager.
-# Pestaña 1:
+### Pestaña 1:
   - Se muestran 2 campos de texto para introducir nombre y apellidos
   - Se muesra un boton para guardar esos valores como un archivo de arrat de strings
   
@@ -10,7 +10,7 @@
                 <apellido>Jimenez</apellido>
             </item>
             
-# Pestaña 2:
+### Pestaña 2:
   - Se muestra una tabla donde se muestran los registros guardados en cada pestaña anterior
   - Cada celda mostrara nombre y apellido
   
