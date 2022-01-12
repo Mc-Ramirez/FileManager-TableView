@@ -16,6 +16,7 @@
 		CB6C2278278EE9A90071823E /* FileManager_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C2277278EE9A90071823E /* FileManager_TableViewTests.swift */; };
 		CB6C2282278EE9A90071823E /* FileManager_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C2281278EE9A90071823E /* FileManager_TableViewUITests.swift */; };
 		CB6C2284278EE9A90071823E /* FileManager_TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C2283278EE9A90071823E /* FileManager_TableViewUITestsLaunchTests.swift */; };
+		CB6C2291278F01B20071823E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C2290278F01B20071823E /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CB6C227D278EE9A90071823E /* FileManager&TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FileManager&TableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6C2281278EE9A90071823E /* FileManager_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager_TableViewUITests.swift; sourceTree = "<group>"; };
 		CB6C2283278EE9A90071823E /* FileManager_TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager_TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB6C2290278F01B20071823E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CB6C2260278EE9A90071823E /* AppDelegate.swift */,
 				CB6C2262278EE9A90071823E /* SceneDelegate.swift */,
 				CB6C2264278EE9A90071823E /* ViewController.swift */,
+				CB6C2290278F01B20071823E /* TableViewCell.swift */,
 				CB6C2266278EE9A90071823E /* Main.storyboard */,
 				CB6C2269278EE9A90071823E /* Assets.xcassets */,
 				CB6C226B278EE9A90071823E /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6C2265278EE9A90071823E /* ViewController.swift in Sources */,
+				CB6C2291278F01B20071823E /* TableViewCell.swift in Sources */,
 				CB6C2261278EE9A90071823E /* AppDelegate.swift in Sources */,
 				CB6C2263278EE9A90071823E /* SceneDelegate.swift in Sources */,
 			);
