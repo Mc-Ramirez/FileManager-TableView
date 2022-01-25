@@ -10,10 +10,7 @@ import UIKit
 class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var lbl_name: UILabel!
-    @IBOutlet weak var lbl_lastName: UILabel!
-    @IBOutlet weak var lbl_nameText: UILabel!
-    @IBOutlet weak var lbl_lastNameText: UILabel!
-    
+    @IBOutlet weak var lbl_showFullName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
     }

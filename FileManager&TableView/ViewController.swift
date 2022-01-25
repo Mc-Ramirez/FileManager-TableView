@@ -9,12 +9,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var txt_lastName: UITextField!
     @IBOutlet weak var txt_show: UITextView!
     var datos = [String]()
+    var defaults = UserDefaults.standard
+    private let myKey = "mykey"
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    @IBAction func btn_show(_ sender: Any) {
+   
+    @IBAction func btn_Json(_ sender: Any) {
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: getFullPath().absoluteString){
             let array = getData()
@@ -35,6 +37,7 @@ class ViewController: UIViewController {
         }else{
             print ("No existe")
         }
+        
         datos.append(text_name)
         datos.append(text_lastName)
         
@@ -44,6 +47,12 @@ class ViewController: UIViewController {
         }catch let error {
             print("ERROR: \(error)")
         }
+    }
+    
+    //Guardar en xml
+    @IBAction func btn_saveXML(_ sender: Any) {
+        defaults.set(datos, forKey: myKey)
+        defaults.synchronize()
     }
     
     private func getDocumentPath() -> URL{
