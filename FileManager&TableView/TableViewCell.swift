@@ -1,16 +1,14 @@
-//
 //  TableViewCell.swift
 //  FileManager&TableView
-//
 //  Created by Felipe Ramírez on 12/1/22.
-//
 
 import UIKit
 
 class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var lbl_name: UILabel!
-    @IBOutlet weak var lbl_showFullName: UILabel!
+    @IBOutlet weak var lbl_lastname: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
     }
